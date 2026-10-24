@@ -2,7 +2,7 @@
 
 [![tests](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml/badge.svg)](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml)
 
-Hong Kong supermarket **price digests you can run locally** — bring your own CSV, markdown / JSON out. **No scrapers.**
+**Compare HK supermarket prices from your CSV** — local digests, no scrapers.
 
 ## Why
 
@@ -10,13 +10,17 @@ Hong Kong supermarket prices for the same item often differ by store, and the ga
 
 ## Purpose
 
-On your machine, it works out which store is cheaper, how large the gaps are, and which store wins a small basket. The output is markdown and/or JSON, for you to read or to feed a **Grok Bot**. This repository is a **Grok Bot** local tool (deedade). It is not an xAI API client.
+On your machine, it works out which store is cheaper, how large the gaps are, and which store wins a small basket. The output is markdown and/or JSON for you to read, or for **any agent that can run a shell command and read files** (Grok Bot, Hermes, OpenClaw, Cursor agents, Claude Code, and others). This repository is a small local CLI under deedade. Grok Bot is one intended consumer, not a hard dependency. It is not an xAI API client.
 
 ## Workflow
 
 1. Prepare or export a price CSV. Bring your own; the sample in this repo is synthetic.
 2. Run `hk-price-digest` locally.
-3. Read the markdown and/or JSON. Optionally, hand the digest to a **Grok Bot**.
+3. Read the markdown and/or JSON. Optionally hand the digest to an agent (Grok Bot, Hermes, OpenClaw, …) or keep reading it yourself.
+
+### Agents
+
+Install and run the CLI locally. The agent invokes `hk-price-digest`, then reads `--json-out` and `--md-out`. There is no Grok- or Hermes-specific protocol, and this is not the grok-hermes-webhook contract. Once installed, it works offline. Any agent runtime with a local shell can use it.
 
 v0.1 stops at the local digest: no push notifications, no database, no scrapers, and no Hermes-style four-part async report.
 
