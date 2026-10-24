@@ -1,7 +1,7 @@
 [project]
 name = "hk-price-digest"
 version = "0.1.0"
-description = "Local HK supermarket price digests from CSV (Grok Bot tool) — no scrapers, sample in, markdown/JSON out."
+description = "Local HK supermarket price digests from CSV (Grok Bot tool) — bring your own data, no scrapers, markdown/JSON out."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
