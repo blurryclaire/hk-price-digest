@@ -2,9 +2,23 @@
 
 [![tests](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml/badge.svg)](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml)
 
-Hong Kong supermarket **price digests you can run locally** — CSV in, markdown / JSON out. **No scrapers**, no accounts, no live network.
+Hong Kong supermarket **price digests you can run locally** — bring your own CSV, markdown / JSON out. **No scrapers.**
 
-This repository is a **Grok Bot** local tool (deedade). It reads a price CSV on your machine and writes a digest. It is not an xAI API client.
+## Why
+
+Hong Kong supermarket prices for the same item often differ by store, and the gap is real. Comparing those prices by hand, or in a spreadsheet, is error-prone: one wrong row or a mixed-up week changes the result. This tool is for people who bring their own price CSV, from a store export or from their own notes. They do not want scrapers, store logins, or to hand a store account to a cloud service. It is not a live Hong Kong price tracker.
+
+## Purpose
+
+On your machine, it works out which store is cheaper, how large the gaps are, and which store wins a small basket. The output is markdown and/or JSON, for you to read or to feed a **Grok Bot**. This repository is a **Grok Bot** local tool (deedade). It is not an xAI API client.
+
+## Workflow
+
+1. Prepare or export a price CSV. Bring your own; the sample in this repo is synthetic.
+2. Run `hk-price-digest` locally.
+3. Read the markdown and/or JSON. Optionally, hand the digest to a **Grok Bot**.
+
+v0.1 stops at the local digest: no push notifications, no database, no scrapers, and no Hermes-style four-part async report.
 
 ## Quick start
 
