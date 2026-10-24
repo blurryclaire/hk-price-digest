@@ -1,0 +1,71 @@
+{
+  "week": "2026-W43",
+  "counts": {
+    "rows": 12,
+    "products": 4,
+    "stores": 3
+  },
+  "store_win_counts": {
+    "StoreA": 2,
+    "StoreC": 2
+  },
+  "top_gaps": [
+    {
+      "product_id": "P003",
+      "name": "卷裝廁紙 10卷",
+      "low_store": "StoreA",
+      "low_price": 42.0,
+      "high_store": "StoreB",
+      "high_price": 55.0,
+      "gap_pct": 31.0
+    },
+    {
+      "product_id": "P007",
+      "name": "即食麵 5包",
+      "low_store": "StoreC",
+      "low_price": 19.9,
+      "high_store": "StoreB",
+      "high_price": 26.0,
+      "gap_pct": 30.7
+    },
+    {
+      "product_id": "P009",
+      "name": "洗衣液 2公升",
+      "low_store": "StoreC",
+      "low_price": 49.9,
+      "high_store": "StoreA",
+      "high_price": 59.9,
+      "gap_pct": 20.0
+    },
+    {
+      "product_id": "P001",
+      "name": "全脂牛奶 1公升",
+      "low_store": "StoreA",
+      "low_price": 23.0,
+      "high_store": "StoreC",
+      "high_price": 24.0,
+      "gap_pct": 4.3
+    }
+  ],
+  "basket": {
+    "product_ids": [
+      "P001",
+      "P003",
+      "P007",
+      "P009"
+    ],
+    "by_store": {
+      "StoreA": 146.4,
+      "StoreB": 163.9,
+      "StoreC": 143.3
+    },
+    "cheapest_store": "StoreC",
+    "cheapest_total": 143.3
+  },
+  "week_over_week": null,
+  "caveats": [
+    "Sample data is synthetic; not live supermarket prices.",
+    "week_over_week requires a prior week in the same CSV (not in v0.1 sample).",
+    "No scrapers or live network calls in v0.1."
+  ]
+}

@@ -1,0 +1,13 @@
+week,observed_on,product_id,barcode,name,brand,category,pack_qty,pack_unit,store,price,currency,source
+2026-W43,2026-10-20,P001,2000000000015,全脂牛奶 1公升,BrandA,乳品,1000,ml,StoreA,23.00,HKD,synthetic-sample
+2026-W43,2026-10-20,P001,2000000000015,全脂牛奶 1公升,BrandA,乳品,1000,ml,StoreB,23.00,HKD,synthetic-sample
+2026-W43,2026-10-21,P001,2000000000015,全脂牛奶 1公升,BrandA,乳品,1000,ml,StoreC,24.00,HKD,synthetic-sample
+2026-W43,2026-10-20,P003,2000000000022,卷裝廁紙 10卷,BrandC,紙品,10,rolls,StoreA,42.00,HKD,synthetic-sample
+2026-W43,2026-10-20,P003,2000000000022,卷裝廁紙 10卷,BrandC,紙品,10,rolls,StoreB,55.00,HKD,synthetic-sample
+2026-W43,2026-10-21,P003,2000000000022,卷裝廁紙 10卷,BrandC,紙品,10,rolls,StoreC,49.50,HKD,synthetic-sample
+2026-W43,2026-10-20,P007,2000000000039,即食麵 5包,BrandG,乾貨,5,packs,StoreA,21.50,HKD,synthetic-sample
+2026-W43,2026-10-20,P007,2000000000039,即食麵 5包,BrandG,乾貨,5,packs,StoreB,26.00,HKD,synthetic-sample
+2026-W43,2026-10-21,P007,2000000000039,即食麵 5包,BrandG,乾貨,5,packs,StoreC,19.90,HKD,synthetic-sample
+2026-W43,2026-10-20,P009,2000000000046,洗衣液 2公升,BrandI,清潔,2000,ml,StoreA,59.90,HKD,synthetic-sample
+2026-W43,2026-10-20,P009,2000000000046,洗衣液 2公升,BrandI,清潔,2000,ml,StoreB,59.90,HKD,synthetic-sample
+2026-W43,2026-10-21,P009,2000000000046,洗衣液 2公升,BrandI,清潔,2000,ml,StoreC,49.90,HKD,synthetic-sample
