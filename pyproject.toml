@@ -1,7 +1,7 @@
 [project]
 name = "hk-price-digest"
 version = "0.1.0"
-description = "Local HK supermarket price digests from CSV — BYO data, no scrapers; markdown/JSON for humans or any agent (Grok Bot, Hermes, OpenClaw, …)."
+description = "Compare HK supermarket prices from your CSV — local digests, no scrapers. Markdown/JSON for you or any agent."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }

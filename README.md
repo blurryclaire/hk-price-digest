@@ -2,7 +2,7 @@
 
 [![tests](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml/badge.svg)](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml)
 
-Hong Kong supermarket **price digests you can run locally** — bring your own CSV, markdown / JSON out, for humans or agents. **No scrapers.**
+**Compare HK supermarket prices from your CSV** — local digests, no scrapers.
 
 ## Why
 
