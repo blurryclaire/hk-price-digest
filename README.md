@@ -1,6 +1,10 @@
 # hk-price-digest
 
+[![tests](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml/badge.svg)](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml)
+
 Hong Kong supermarket **price digests you can run locally** — CSV in, markdown / JSON out. **No scrapers**, no accounts, no live network.
+
+This repository is a **Grok Bot** local tool (deedade). It reads a price CSV on your machine and writes a digest. It is not an xAI API client.
 
 ## Quick start
 
@@ -41,11 +45,21 @@ On the bundled synthetic sample (`2026-W43`): toilet paper **P003** shows a **~3
 
 Sample rows are **synthetic** (`source=synthetic-sample`). Do not commit real loyalty, bank, or store-account credentials. Bring your own exports.
 
+## Layout
+
+```
+src/hk_price_digest/      # parse, digest, markdown/JSON render, CLI
+examples/                 # synthetic sample CSV, markdown, JSON
+tests/
+.github/workflows/ci.yml  # pytest on push and pull_request
+```
+
 ## What v0.1 does **not** include
 
 - Supermarket scrapers / logins
 - Push notifications
 - Historical database or hosting
+- Live network fetches or xAI API calls
 
 ## License
 
