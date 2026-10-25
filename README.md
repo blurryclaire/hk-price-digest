@@ -1,6 +1,6 @@
 # hk-price-digest
 
-[![tests](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml/badge.svg)](https://github.com/deedade/hk-price-digest/actions/workflows/ci.yml)
+[![tests](https://github.com/blurryclaire/hk-price-digest/actions/workflows/ci.yml/badge.svg)](https://github.com/blurryclaire/hk-price-digest/actions/workflows/ci.yml)
 
 **Compare HK supermarket prices from your CSV** — local digests, no scrapers.
 
@@ -10,7 +10,7 @@ Hong Kong supermarket prices for the same item often differ by store, and the ga
 
 ## Purpose
 
-On your machine, it works out which store is cheaper, how large the gaps are, and which store wins a small basket. The output is markdown and/or JSON for you to read, or for **any agent that can run a shell command and read files** (Grok Bot, Hermes, OpenClaw, Cursor agents, Claude Code, and others). This repository is a small local CLI under deedade. Grok Bot is one intended consumer, not a hard dependency. It is not an xAI API client.
+On your machine, it works out which store is cheaper, how large the gaps are, and which store wins a small basket. The output is markdown and/or JSON for you to read, or for **any agent that can run a shell command and read files** (Grok Bot, Hermes, OpenClaw, Cursor agents, Claude Code, and others). This repository is a small local CLI under blurryclaire. Grok Bot is one intended consumer, not a hard dependency. It is not an xAI API client.
 
 ## Workflow
 

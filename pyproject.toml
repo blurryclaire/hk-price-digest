@@ -5,7 +5,7 @@ description = "Compare HK supermarket prices from your CSV — local digests, no
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "deedade" }]
+authors = [{ name = "blurryclaire" }]
 dependencies = []
 
 [project.optional-dependencies]
